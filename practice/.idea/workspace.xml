@@ -25,19 +25,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/shekar/gaylelaakman/UniqueElements.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-              <folding>
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shekar/hackerrank/SockMerchant.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
@@ -76,8 +63,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shekar/geeksforgeeks/MissingNumberInArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
+            <state relative-caret-position="420">
               <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shekar/geeksforgeeks/SubArrayWithGivenSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="39" column="52" lean-forward="true" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,7 +93,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/shekar/hackerrank/LeftRotation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="318">
@@ -137,6 +136,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/shekar/geeksforgeeks/MissingNumberInArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shekar/hackerrank/TwoDArrayDS.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/shekar/hackerrank/LeftRotation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shekar/geeksforgeeks/SubArrayWithGivenSum.java" />
       </list>
     </option>
   </component>
@@ -209,6 +209,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="shekar" type="462c0819:PsiDirectoryNode" />
+              <item name="geeksforgeeks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shekar" type="462c0819:PsiDirectoryNode" />
               <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -220,6 +229,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -236,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LeftRotation">
+  <component name="RunManager" selected="Application.SubArrayWithGivenSum">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -250,20 +260,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.shekar.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JumpOnTheClouds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shekar.hackerrank.JumpOnTheClouds" />
-      <module name="practice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shekar.hackerrank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,6 +309,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubArrayWithGivenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shekar.geeksforgeeks.SubArrayWithGivenSum" />
+      <module name="practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shekar.geeksforgeeks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -346,11 +356,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubArrayWithGivenSum" />
         <item itemvalue="Application.LeftRotation" />
         <item itemvalue="Application.MissingNumberInArray" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.RepeatedString" />
-        <item itemvalue="Application.JumpOnTheClouds" />
       </list>
     </recent_temporary>
   </component>
@@ -369,6 +379,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -448,16 +459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shekar/geeksforgeeks/MissingNumberInArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/shekar/hackerrank/TwoDArrayDS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -476,6 +477,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
           <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shekar/geeksforgeeks/MissingNumberInArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shekar/geeksforgeeks/SubArrayWithGivenSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="39" column="52" lean-forward="true" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
