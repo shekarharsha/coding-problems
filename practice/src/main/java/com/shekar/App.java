@@ -41,5 +41,21 @@ public class App
 
         items.stream().forEach(System.out::println);
 
+
+        HashMap<Float, ArrayList<Integer>> map = new HashMap<>();
+
+        int[][] arr = new int[3][3];
+
+        for(int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                arr[i][j] = i+j;
+            }
+        }
+
+        System.out.println(arr);
+
+
+
+
     }
 }
