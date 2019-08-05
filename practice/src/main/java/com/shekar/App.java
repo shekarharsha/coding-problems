@@ -1,5 +1,6 @@
 package com.shekar;
 
+import java.math.BigInteger;
 import java.util.*;
 
 /**
@@ -53,6 +54,11 @@ public class App
         }
 
         System.out.println(arr);
+
+
+        BigInteger A = new BigInteger("1234567890000000");
+
+        System.out.println(A.intValue());
 
 
 
