@@ -1,28 +1,30 @@
 package com.shekar.codesignal.aqrcapital;
 
+import java.util.Arrays;
+
 public class Test11 {
 
     public static void main(String[] args) {
 
+        int[] in = {-2, -3, 5, -4, -2, 3};
 
+        System.out.println(arrayTrip(in, 3));
 
     }
 
     public static long arrayTrip(int[] arr, int k) {
-        long maxSum = 0;
-        long currMax = 0;
 
-        int i = 0;
-        while (i != (arr.length -1)) {
-            int jump = 0;
-            int curJump = 0;
-            for (jump = 1; jump <= k && (i + jump) < arr.length; jump++) {
+        long[] maxSum = new long[arr.length];
+        Arrays.fill(maxSum, Long.MIN_VALUE);
+        maxSum[0] = arr[0];
+        int N = arr.length;
 
-                currMax = Math.max(currMax, currMax + arr[i+jump]);
+        for(int i = 0; i < N; i++) {
+            for (int j = i+1; j <= i+k && j < N; j++) {
+                maxSum[j] = Math.max(maxSum[j], maxSum[i] + (long)arr[j]);
             }
-
         }
 
-        return maxSum;
+        return maxSum[arr.length - 1];
     }
 }
