@@ -8,47 +8,44 @@ public class NewYearChaos {
 
         Scanner sc = new Scanner(System.in);
 
-        int T = sc.nextInt();
+        int t = sc.nextInt();
 
-        while(T-- > 0) {
+        while (t-- > 0) {
 
-            int N = sc.nextInt();
+            int n = sc.nextInt();
 
-            int[] in = new int[N];
+            int[] inp = new int[n];
 
-            for(int i = 0; i < N; i++) {
-                in[i] = sc.nextInt();
+            for (int i = 0; i < n; i++) {
+                inp[i] = sc.nextInt();
             }
 
             NewYearChaos newYearChaos = new NewYearChaos();
-            newYearChaos.minimumBribes(in);
+            newYearChaos.solution(inp);
         }
 
 
     }
 
-    private void minimumBribes(int[] q) {
+    private void solution(int[] q) {
 
-        for (int i = 0; i < q.length; i++) {
+        int totalBribes = 0;
+
+        for(int i = 0; i < q.length; i++) {
+
             if ((i+1) - q[i] < -2) {
                 System.out.println("Too chaotic");
                 return;
             }
-        }
 
-        int minBribes = 0;
+            for(int j = i; j < q.length; j++) {
 
-        for (int i = 0; i < q.length; i++) {
-            for (int j = i+1; j < q.length; j++) {
-                if (q[j] < q[i]) {
-                    minBribes++;
-                } else {
-                    break;
+                if (q[i] > q[j]) {
+                    totalBribes++;
                 }
             }
         }
 
-        System.out.println(minBribes);
-
+        System.out.println(totalBribes);
     }
 }
